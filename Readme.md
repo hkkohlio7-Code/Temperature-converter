@@ -45,3 +45,5 @@ https://hkkohlio7-code.github.io/Temperature-converter/
 Hemant Kohli
 
 Built as a Javascript practice while learning web development.
+
+updated on June 18 2026
