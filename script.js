@@ -26,20 +26,15 @@ function kelvin(){
     fInput.value = fahrenheit;
 }
 
-cInput.addEventListener("keydown", (event)=>{
-    if(event.key === "Enter"){
-        celsius();
-    }
-})
-fInput.addEventListener("keydown", (event)=>{
-    if(event.key === "Enter"){
-        fahrenheit();
-    }
-})
-kInput.addEventListener("keydown", (event)=>{
-    if(event.key === "Enter"){
-        kelvin();
-    }
-})
+cInput.addEventListener("input", () => {
+    celsius();
+});
 
+fInput.addEventListener("input", () => {
+    fahrenheit();
+});
+
+kInput.addEventListener("input", () => {
+    kelvin();
+});
 
